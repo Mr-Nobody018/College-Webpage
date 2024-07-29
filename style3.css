@@ -1,0 +1,26 @@
+.calendar {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .calendar th {
+    text-align: center;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+  
+  .calendar td {
+    padding: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .calendar .today {
+    background-color: lightblue;
+  }
+  
+  .calendar .event { /* Add styling for event days (optional) */
+    background-color: lightgreen;
+  }
+  
